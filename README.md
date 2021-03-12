@@ -10,13 +10,13 @@ After the data was transformed and normalized, I used various machine learning m
 
 Used this trained Random Forest model to predict the AML/normal status of the remaining unlabelled data. Successfully predicted 19 of 20 AML patients and achieved an accuracy of 99.44%, F1 of 97.43% with 1 mistake (see attached picture for confusion matrix and results).
 
+## Results:
+![randomForest_ROC](https://github.com/ahishsujay/aml-classification/blob/main/randomForest_ROC.png)
+![finalResult](https://github.com/ahishsujay/aml-classification/blob/main/finalResult.png)
+![confusionMatrix](https://github.com/ahishsujay/aml-classification/blob/main/confusionMatrix.png)
+
 ## Data availability:
 1. Flow cytometry data for all 359 patients: http://pengqiu.gatech.edu/MLB/CSV.zip
 2. Class labels: http://pengqiu.gatech.edu/MLB/AMLTraining.csv.zip
 
 The data is from a DREAM challenge, and more information about it can be found here: https://www.synapse.org/#!Synapse:syn2887788/wiki/
-
-## Results:
-![randomForest_ROC](https://github.com/ahishsujay/aml-classification/blob/main/randomForest_ROC.png)
-![finalResult](https://github.com/ahishsujay/aml-classification/blob/main/finalResult.png)
-![confusionMatrix](https://github.com/ahishsujay/aml-classification/blob/main/confusionMatrix.png)
